@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+.display-3{ 
+       color: white;
+       text-align:  center;
+}
+.lead{
+        color: cornsilk;
+        text-align:  center;
+}
+.container{
+        background-color: dodgerblue;
+}
+.row{
+        background-color:  cornsilk;    
+}
+[class^=".col-"]:first-child {
+      background-color: aquamarine;
+}
+[class^=".col-"]:last-child {
+        background-color: salmon;
+=======
+.display-3{ 
+       color: white;
+       text-align:  center;
+}
+.lead{
+        color: cornsilk;
+        text-align:  center;
+}
+.container{
+        background-color: dodgerblue;
+}
+.row{
+        background-color:  cornsilk;    
+}
+[class^=".col-"]:first-child {
+      background-color: aquamarine;
+}
+[class^=".col-"]:last-child {
+        background-color: salmon;
+>>>>>>> 8c523b5c65f740b9b8d3c718bb02e0e54e3dcb0f
+}
