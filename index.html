@@ -1,18 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>WD3 week 5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+        <div class="container-fluid">
+          
+               
+    <header>
+            <div class="jumbotron">
+                    <div class="page-header">
+                      <h1>WD3 week 5</h1>           
+            </div>
+    </header>
+<main>
     <div>
+        <div class="contianer">
+        <h2>In Class work</h2>
         <p id="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend velit sit amet vulputate dignissim. Curabitur eget rhoncus tortor. Cras metus lectus, consectetur a ultrices et, varius non sapien. Phasellus laoreet ex quis ligula euismod aliquet. Vivamus laoreet lacus a ligula tristique dictum. Nam eleifend, sapien nec finibus porttitor, orci enim vehicula ligula, sed facilisis lectus tortor sit amet tortor. Vivamus quis justo nisi. Vestibulum eget mi sed magna vestibulum lobortis vel eu justo. Ut tincidunt nisl quis ipsum convallis suscipit. Nulla facilisi. Nulla nec sem sed leo feugiat efficitur id eu enim. Pellentesque venenatis gravida libero, tempor tempus justo ornare id. Sed et mi eu massa iaculis dignissim. Sed dignissim justo metus, ac posuere sem finibus id. Vivamus quis maximus dui. Phasellus massa ligula, aliquet nec viverra quis, fringilla id metus. </p>
         <button id="button1_1" class="color-button">Color Me!</button>
         <button id="button1_2" class="hide-button">Hide Me!</button>
+        <div class="contianer"></div>
     </div>
 
     <div>
@@ -22,14 +35,15 @@
     </div>
 
     <div>
-            <p id="text3">Change this text</p>
-    
+        <div class="contianer">
+            <h2>JQuery Homework</h2>
             <button id="button3_1" class="css-button">Change CSS!</button>
             <button id="button3_2" >Trigger click event for alert</button>
-            <p onclick="alert('Click event triggered')">This is a paragraph.</p>
+            <p onclick="alert('Click event triggered')"></p>
+        </div>
      </div>
         <div>
-        <button id="button3_3" >click to start animation</button>
+        <button id="button3_3">click to start animation</button>
         <div id="block" style="background-color:#98bf21;width:100px;border:1 px solid green;">HELLO</div>
         </div>
         <div>
@@ -64,7 +78,7 @@
 
                 $("#button3_1").click(function(){
                     console.log(this);
-                $("#text p").css("text-decoration", "overline")
+                $("div").css("text-decoration", "overline")
                             .css("font-size", "+=1pt");
             });
 
@@ -92,6 +106,7 @@
     </script>
 
 
-   
+</main> 
+</div>  
 </body>
 </html>
