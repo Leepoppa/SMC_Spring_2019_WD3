@@ -29,6 +29,12 @@
       background: #ffffff;
       opacity: 0.4;
     }
+    #carousel_bg {
+      background-image: url(images/jb_eyes.svg);
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: 35%;
+    }
     .vector {
       max-width: 80%;
   
