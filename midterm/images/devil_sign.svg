@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.375005 79.375002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="devil_sign.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="881.75142"
+     inkscape:cy="200.96381"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1697"
+     inkscape:window-height="1212"
+     inkscape:window-x="830"
+     inkscape:window-y="501"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-217.62498)">
+    <g
+       id="g5143"
+       transform="matrix(0.56866093,0,0,0.56866093,17.11877,110.98893)">
+      <g
+         transform="matrix(0.42341997,0,0,0.42341997,-39.138148,153.60743)"
+         id="g5137">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#0087ba;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.00000095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97254902"
+           id="rect5132"
+           width="22.136467"
+           height="49.515614"
+           x="140.48369"
+           y="208.5054" />
+        <path
+           style="fill:#0087ba;fill-opacity:1;stroke:#c52a2d;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.97254902"
+           d="m 212.48092,259.03429 25.65788,-26.19242 c 15.69996,-7.31026 19.11794,10.48929 13.67772,21.11272 -12.65213,38.8053 -40.88482,85.72783 -96.53474,64.70691 -24.58705,-13.30178 -36.05461,-35.94885 -37.28693,-60.0256 l 0.67446,-67.22081 c 6.96137,-14.65773 25.8551,-9.92911 23.51972,3.38157 v 58.09043 c 2.53911,8.71285 14.17767,12.50547 20.43113,5.13392 4.13563,-3.25273 2.05472,-8.68249 2.55405,-13.1598 v -26.71916 c 3.76699,-8.25321 14.44362,-11.92131 21.18588,-4.70662 3.94209,3.86633 1.84043,-3.56737 2.43239,-5.94094 l 0.43599,-32.91738 c 4.00198,-8.69479 15.35289,-12.34539 21.02149,-3.16161 3.66035,2.56792 1.77175,7.196 2.23096,10.94345 z"
+           id="path5118"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccccc" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#c52a2d;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.97254902"
+           d="m 143.11169,216.466 c 4.50257,-8.11809 15.81418,-9.08723 21.00418,-0.9698 2.31189,2.27057 0.70205,6.11081 1.17919,9.11574 v 28.46998 c 4.45259,7.6621 15.54059,11.23382 21.40106,2.90144 2.07476,-3.08471 1.93141,-6.38538 2.33632,-9.8077 -0.0726,-10.88321 -0.14511,-21.76642 -0.21766,-32.64963"
+           id="path5120"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+      </g>
+    </g>
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#0087ba;stroke-width:6.58269262;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse4851"
+       cx="259.34915"
+       cy="-30.742405"
+       rx="32.562351"
+       ry="32.143772"
+       transform="matrix(0.0347125,0.99939734,-0.99812767,0.06116493,0,0)" />
+  </g>
+</svg>
