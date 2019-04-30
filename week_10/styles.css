@@ -1,0 +1,67 @@
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in{
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fade-in.one img {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+body {
+	background-image: url('background.svg');
+	background-size: 50%;
+	background-repeat: no-repeat, repeat;
+	background-position-y: 10vw;
+	background-position-x: 10vw;
+}
+
+.wrapper {
+	margin: 20em auto 2em auto;
+	width:80vw;
+	position: relative;
+}
+
+.mouseHand {
+	background-position-y: -100vw;
+	background-position-x: 10vw;
+	width: 20vw;
+	animation-name: slide;
+	animation-duration: 3s;
+	animation-timing-function: cubic-bezier(.41,.07,.62,.91) ;
+	animation-fill-mode:forwards;
+	animation-direction: alternate;
+	animation-iteration-count: 4;
+}
+
+@keyframes slide {
+	0%{transform: translateX(0);}
+	20% {transform:translateX(60px);}
+	35% {transform:translateX(0);}
+	90% {transform: translateX(90px);}
+	100% {transform: translateX(0px);}
+
+}
+
+
+
+
+
+
+
