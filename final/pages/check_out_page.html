@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet_product.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet_product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="author" content="">
@@ -13,11 +14,11 @@
     <title>Checkout</title>
   </head>
 
-  <body class="bg-light">
+  <body>
       <header>
           <nav class="navbar navbar-expand-md bg-dark navbar-dark">
            <!-- Brand -->
-           <a class="navbar-brand" href="#"><img src="../images/th_logo.svg"></a>
+           <a class="navbar-brand" href="../index.html"><img src="../images/th_logo.svg"></a>
          
            <!-- Toggler/collapsibe Button -->
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -28,13 +29,13 @@
            <div class="collapse navbar-collapse" id="collapsibleNavbar">
                <ul class="navbar-nav ml-auto text-center">
                <li class="nav-item">
-                 <a class="nav-link" href="pages/product_bestseller.html"><h4>Product</h4></a>
+                 <a class="nav-link" href="../pages/product_bestseller.html">Product</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="pages/contact_page.html"><h4>Contact</h4></a>
+                 <a class="nav-link" href="../pages/contact_page.html">Contact</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="pages/blog_page.html"><h4>Blog</h4></a>
+                 <a class="nav-link" href="../pages/blog_page.html">Blog</a>
                </li>
              </ul>
            </div>
@@ -43,9 +44,9 @@
              <main>
                <div>
     <div class="container">
-      <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="../images/th_logo.svg" alt="" width="72" height="72">
-        <h2>Checkout form</h2>
+      <div class="py-3 text-center">
+        <h2 class="h1-responsive font-weight-bold text-center my-4"><i class="fa fa-credit-card fa-3x"></i><br>Checkout form</h2>
+       
         <p class="lead"></p>
       </div>
 
@@ -242,19 +243,22 @@
                 </div>
               </div>
             </div>
-            <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            <hr class="mb-6">
+            <button class="btn btn-danger btn-lg btn-block" type="submit">Continue to checkout</button>
           </form>
         </div>
       </div>
     </main>
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2019 Tunic Hut Inc.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="text-center">
+          <div class="social">
+            <ul>
+                <li><a href="https://www.pinterest.com" class="fa fa-pinterest fa-2x"></a></li>
+                <li><a href="https://www.twitter.com" class="fa fa-twitter fa-2x"></a></li>
+                <li><a href="https://www.instragram.com" class="fa fa-instagram fa-2x"></a></li>
+            </ul>
+            </div>
+        </div>
       </footer>
     </div>
 
@@ -263,9 +267,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/holder.min.js"></script>
+
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {

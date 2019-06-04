@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet_product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Most Desired</title>
   </head>
   <body>
@@ -26,58 +27,51 @@
          <div class="collapse navbar-collapse" id="collapsibleNavbar">
              <ul class="navbar-nav ml-auto text-center">
              <li class="nav-item">
-               <a class="nav-link" href="../pages/product_bestseller.html"><h4>Product</h4></a>
+               <a class="nav-link" href="../pages/product_bestseller.html">Product</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="../pages/contact_page.html"><h4>Contact</h4></a>
+               <a class="nav-link" href="../pages/contact_page.html">Contact</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="../pages/blog_page.html"><h4>Blog</h4></a>
+               <a class="nav-link" href="../pages/blog_page.html">Blog</a>
              </li>
            </ul>
          </div>
        </nav> 
            </header>
         <main>
-                <header>
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-9"></div>
-                                <div class="col-md-3">
-                                    Your Shopping Cart
-                                    <div id="cart-container">
-                                      <div id="cart">
-                                        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
-                                        <button class="clear">Empty Cart</button>
-                                      </div>
-                                      <span id="itemCount"></span>
-                                    </div>
-                                  <div id="shoppingCart">
-                                    <div id="cartItems">
-                                      Items in your cart
-                                      <i class="fa fa-times-circle-o fa-x" aria-hidden="true"></i>
-                                  </div>
-                                  </div>
-                                    </div>
+            <header >
+                <div class="container-fluid">
+                    <div class="row">
+                            <div id="cart-container">
+                              <div id="cart"></div>
+                              <div id="cartItems">
+                            <div id="shoppingCart"><h4 class="btn btn-outline-secondary" span id="itemCount"></span></h4><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                                
+                                <a href="../pages/check_out_page.html"><button class="clear">Checkout</button></a>
                                 </div>
                             </div>
-                        </div>   
-                    </div>    
-                </header>
+                        </div>
+                    </div>
+                </div>   
+            </div>    
+        </header>
   <section class ="feature-products">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center feature-title">
-                <h2>FEATURED PRODUCTS</h2>
+                <h2 class="display-1">Regalia</h2>
+                <hr>
                 <a href="product_bestseller.html">BEST SELLER</a> | <a href="product_new.html">NEW ARRIVALS</a> | <a class="feature-active" href="product_most_desired.html">MOST DESIRED</a> 
+                <hr>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="product-grid">
                     <div class="product-image">
-                        <a href="#" class="image" style="background-color:#F3F3F3;">
+                        <a href="#" class="image">
                             <img class="pic-1" src="../images/tunic_5.png">
                         </a>
-                        <a class="add-to-cart" href=""> + </a>
+                        <button class="add-to-cart js-add-to-cart" href=""> + </button>
                     </div>
                     <div class="product-content">
                         <h3 class="title"><a href="#">The Guildsman</a></h3>
@@ -93,9 +87,8 @@
                     </div>
     
                     <div class="action-buttons">
-                        <a class="btn-outline">ADD TO CART</a>
+                        <button class="js-add-to-cart btn-outline" href=""> Add to Cart </button>
                         <a class="btn-outline-icon"><i class="far fa-heart"></i></a>
-                        <a class="btn-outline-icon"><i class="fas fa-chart-pie"></i></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +98,7 @@
                         <a href="#" class="image">
                             <img class="pic-1" src="../images/tunic_6.png">
                         </a>
-                        <a class="add-to-cart" href=""> + </a>
+                        <button class="add-to-cart js-add-to-cart" href=""> + </button>
                     </div>
                     <div class="product-content">
                         
@@ -121,9 +114,8 @@
                        </ul>
                     </div>
                     <div class="action-buttons">
-                        <a class="btn-outline">ADD TO CART</a>
+                        <button class="js-add-to-cart btn-outline" href=""> Add to Cart </button>
                         <a class="btn-outline-icon"><i class="far fa-heart"></i></a>
-                        <a class="btn-outline-icon"><i class="fas fa-chart-pie"></i></a>
                     </div>
     
                 </div>
@@ -134,11 +126,9 @@
                         <a href="#" class="image">
                             <img class="pic-1" src="../images/tunic_7.png">
                         </a>
-                        <a class="add-to-cart" href=""> + </a>
+                        <button class="add-to-cart js-add-to-cart" href=""> + </button>
                     </div>
                     <div class="product-content">
-                    
-    
                         <h3 class="title"><a href="#">Swinging Merchant</a></h3>
                         
                          <div class="price">3.2 £sd</div>
@@ -151,9 +141,8 @@
                        </ul>
                     </div>
                     <div class="action-buttons">
-                        <a class="btn-outline">ADD TO CART</a>
+                        <button class="js-add-to-cart btn-outline" href=""> Add to Cart </button>
                         <a class="btn-outline-icon"><i class="far fa-heart"></i></a>
-                        <a class="btn-outline-icon"><i class="fas fa-chart-pie"></i></a>
                     </div>
     
                 </div>
@@ -164,7 +153,7 @@
                         <a href="#" class="image">
                             <img class="pic-1" src="../images/tunic_8.png">
                         </a>
-                        <a class="add-to-cart" href=""> + </a>
+                        <button class="add-to-cart js-add-to-cart" href=""> + </button>
                     </div>
                     <div class="product-content">
                        
@@ -181,9 +170,8 @@
                     </div>
    
                     <div class="action-buttons">
-                            <a class="btn-outline">ADD TO CART</a>
+                        <button class="js-add-to-cart btn-outline" href=""> Add to Cart </button>
                             <a class="btn-outline-icon"><i class="far fa-heart"></i></a>
-                            <a class="btn-outline-icon"><i class="fas fa-chart-pie"></i></a>
                         </div>
         
                     </div>
@@ -192,6 +180,17 @@
         </div>           
         </section>
     </main>
+    <footer class="footer">
+        <div class="text-center">
+          <div class="social">
+            <ul>
+                <li><a href="https://www.pinterest.com" class="fa fa-pinterest fa-2x"></a></li>
+                <li><a href="https://www.twitter.com" class="fa fa-twitter fa-2x"></a></li>
+                <li><a href="https://www.instragram.com" class="fa fa-instagram fa-2x"></a></li>
+            </ul>
+            </div>
+        </div>
+      </footer>
                   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                         <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
                         <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
@@ -199,10 +198,9 @@
              <script>
              var itemCount = 0;
 
-$('.add-to-cart').click(function (){
+$('.js-add-to-cart').click(function (){
   itemCount ++;
-  $('#itemCount').html(itemCount).css('display', 'block');
-  $(this).siblings('.itemDetails').clone().appendTo( "#cartItems" ).append('<button class="removeItem">Remove Item</button>');
+  $('#itemCount').html(itemCount);
 }); 
 
 $('.clear').click(function() {
